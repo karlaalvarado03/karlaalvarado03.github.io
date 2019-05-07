@@ -1,0 +1,24 @@
+body {
+            background-image: url('images/back.jpg');
+            color: #FFFFFF;
+            background-size: cover;
+            text-align: left;
+            vertical-align: bottom;
+            text-shadow: 1px 1px black;
+    }
+.button {
+            background-color: #ff99ff;    
+            border: 2px;
+            color: black;
+            text-align: center;
+            text-decoration: underline;
+            display: inline-block;
+            font-size: 18px;
+            margin: 5px 5px;
+            cursor: pointer;
+            border-radius:60%;
+}
+div {
+        padding-left: 20px;
+        padding-right: 20px;
+}
