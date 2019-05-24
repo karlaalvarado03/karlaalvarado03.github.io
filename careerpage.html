@@ -1,15 +1,36 @@
-<!doctype html>
+<!-- load an icon library-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Career Page</title>
-          <link rel="stylesheet" href="styles.css">
-    </head>
-        <body>
-            <center><a href="index.html" class="button">Home</a>
-            <a href="portfolio.html" class="button">Portfolio</a>
-            <a href="about_me.html" class="button">About Me</a>
-            <a href="careerpage.html" class="active">Career Page</a>
+    <div class="navbar">
+            <a class="active" href="index.html"><i class="fa fa-home"></i>Home</a>
+            <a href="portfolio.html"><i class="fa fa-file"></i>Portfolio</a>
+            <a href="about_me.html"><i class="fa fa-user"></i>About Me</a>
+            <a href="careerpage.html"><i class= "fa fa-laptop"></i>Career Page</a>
+    </div>
+    <style>
+        .navbar {
+            width:100%;
+            background-color:#555;
+            overflow: auto;
+        }
+        .navbar a {
+            float:left;
+            text-align:center;
+            padding:12px;
+            color: white;
+            font-size:17px;
+        }
+        .navbar a:hover {
+            background-color:pink;
+            color:black;
+            }
+            .active {
+                background-color:#EB6FBE;
+                color:black;
+            }
+    </style>
+    <body>
+        <center>
             <h1>Computational Biology</h1>
             <h2>Computational Biology is the science of using biological data to develop algorithms and models to understand biological systems.</h2>
             <h3> The average salary for computational biologist is $100,224/yr</h3>
